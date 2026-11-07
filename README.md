@@ -1,14 +1,21 @@
-# hotel-booking-analysis
+# Hotel Booking Analysis
 
-## Project Objective
-The objective of the project was to help the hotel management improve its revenue generation and overall booking operations by analyzing historical reservation data. Based on the analysis, a dashboard was created to provide valuable insights to executives regarding the hotel's performance, including seasonal trends and cancellation patterns across the different market segments and booking channels. The dashboard was intended to help the hotel's management to make better decisions to improve its revenue and bookings.
+## Introduction
+This project analyzes the hotel's historical booking data to identify insights into the hotel’s performance. In order to optimize revenue generation and streamline booking operations, the hotel management required a deeper understanding of their historical reservation data.
 
-## Dashboard
-Appropriate chart types (Line graph, Column chart, Bar chart and pie chart) were used to represent the metrics and insights. Interactive features such as filters, dropdowns, and tooltips were used to provide detailed information.
+The project includes an analysis of the seasonal booking patterns and cancellation rates of the hotel's different market segments and booking channels. These analyses will be presented in an executive dashboard to give the hotel management team a better understanding of the hotel's performance and to enable them to make informed decisions that will lead to sustainable growth of the hotel.
 
-<img width="2835" height="1587" alt="hotel-booking-dashboard" src="https://github.com/user-attachments/assets/ed24fb7e-5d01-4455-91b6-149995ff6f7f" />
+## Problem Statement
+The hotel management lacked centralized visibility into key booking metrics, which made it impossible for them to maximize their profitability. Specifically, they needed to address their high cancellation rate (over 26%), their high commission costs due to their reliance on OTAs, and their severe seasonal demand fluctuations. Without an understanding of their booking and geographic trends, they could not optimize their pricing or marketing to increase their profitable direct bookings.
 
-## Data modelling and Relationships
+## Data sourcing
+Data is sourced from a spreadsheet.
+[Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vS52d97uM74ii6cWBw03FvzxRB8LP54dAe-PNkCoRR84SglMJRw6fhpjhM-PjauJA/pubhtml)
+
+## Data transformation and cleaning
+The data transformation and cleaning process is documented [in this file](...).
+
+## Data modelling
 The data was designed using the Star Schema, where the different dimension tables were connected to the fact table in a one-to-many relationship.
 
 ### Dimension tables created:
@@ -32,7 +39,8 @@ The data was designed using the Star Schema, where the different dimension table
 - Total Booking Cancellations
 - Average Daily Rate
 
-## Insights
+## Data analysis and Visualisation
+### Insights
 - The properties brought in a total of $39M in revenue from 101K bookings, with an Average Daily Rate (ADR) of $104.
 
 - Bookings tend to follow a distinct seasonal curve, with the peak during the summer months of July and August and the lowest bookings during the winter months of December and January.
@@ -43,7 +51,10 @@ The data was designed using the Star Schema, where the different dimension table
 
 - A significant portion of revenue is lost to cancellations, with 26.57% (27K) of bookings being cancelled.
 
-## Recommendation
+### Visualization
+<img width="2835" height="1587" alt="hotel-booking-dashboard" src="https://github.com/user-attachments/assets/ed24fb7e-5d01-4455-91b6-149995ff6f7f" />
+
+## Recommendations
 - **Adjust pricing based on the season:**
 
   Aim to increase revenue during the peak months of July and August with dynamic pricing and length-of-stay restrictions, and offer promotions during the off-season of December/January to increase bookings.
