@@ -10,7 +10,7 @@ The hotel management lacked centralized visibility into key booking metrics, whi
 
 ## Data sourcing
 Data is sourced from a spreadsheet.
-[Google Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vS52d97uM74ii6cWBw03FvzxRB8LP54dAe-PNkCoRR84SglMJRw6fhpjhM-PjauJA/pubhtml)
+[Google Sheet Link](https://docs.google.com/spreadsheets/d/e/2PACX-1vS52d97uM74ii6cWBw03FvzxRB8LP54dAe-PNkCoRR84SglMJRw6fhpjhM-PjauJA/pubhtml)
 
 ## Data transformation and cleaning
 The data transformation and cleaning process is documented [in this file](https://github.com/Gblack-Hub/hotel-booking-analysis/blob/14054bffca6b299c2610be73023e05d2003e91ad/Data_Transformation_and_Cleaning.pdf).
